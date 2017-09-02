@@ -11,3 +11,8 @@ aspects of working with Unicode are addressed.
 
 2.1 Splitting Strings on Any of Multiple Delimiters    
 2.2 Matching Text at the Start or End of a String   
+2.3 Matching Strings Using Shell Wildcard Patterns    
+2.4 Matching and Searching for Text Patterns    
+2.5 Searching and Replacing Text    
+2.6 Searching and Replacing Case-Insensitive Text Problem    
+2.7 Specifying a Regular Expression for the Shortest Match    
