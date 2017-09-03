@@ -1,0 +1,8 @@
+# Problem: You need to format text with some sort of alignment applied
+
+# Solution: ljust(), rjust(), center()
+
+text = 'Hello World'
+print(text.ljust(20))
+print(text.rjust(20))
+print(text.center(20))
