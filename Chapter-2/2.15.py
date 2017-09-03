@@ -25,3 +25,16 @@ class safesub(dict):
 del n # make sure n is undefined
 s.format_map(safesub(vars()))
 # 'Guido has {n} messages.'
+
+# if you find yourself frequently performing these steps in your code, you could hide the variable
+# substitution process vehind a small utility function that employs a so-called 'frame hack'
+import sys
+
+def sub(text):
+    return text.format_map(safesub(sys._getframe(1).f_locals))
+
+name = 'Guido'
+n = 37
+print(sub('Hello {name}')) # Hello Guido
+print(sub('You have {n} messages.')) # You have 37 messages
+print(sub('Your favorite color is {color}')) # Your favorite color is {color}
