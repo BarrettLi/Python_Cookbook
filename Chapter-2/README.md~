@@ -16,12 +16,3 @@ aspects of working with Unicode are addressed.
 2.5 Searching and Replacing Text    
 2.6 Searching and Replacing Case-Insensitive Text Problem    
 2.7 Specifying a Regular Expression for the Shortest Match    
-2.8 Writing a Regular Expression for Multiline Patterns    
-2.9 Normalizing Unicode Text to a Standard Representation    
-2.10 Working with Unicode Characters in Regular Expressions    
-2.11 Stripping Unwanted Characters from Strings    
-2.12 Sanitizing and Cleaning Up Text    
-2.13 Aligning Text Strings    
-2.14 Combining and Concatenating Strings    
-2.15 Interpolating Variables in Strings    
-2.16 Reformatting Text to a Fixed Number of Columns    
